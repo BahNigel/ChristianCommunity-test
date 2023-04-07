@@ -2,7 +2,7 @@
 <div class="babble tab-pane fade active show" id="list-chat" role="tabpanel" aria-labelledby="list-chat-list">
     <!-- Start of Chat -->
     <div class="chat" id="chat1">
-        @include('Frontend.include.chatHeader')
+        @include('Frontend.chat.include.chatHeader1')
         <div class="content" id="content">
             <div class="container">
                 <div class="col-md-12">
@@ -145,6 +145,6 @@
         </div>
     </div>
     <!-- End of Chat -->
-    @include('Frontend.call.chatCall')
+    @include('Frontend.chat.call.chatCall')
 </div>
 <!-- End of Babble -->

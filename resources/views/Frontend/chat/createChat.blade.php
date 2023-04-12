@@ -25,7 +25,7 @@
 										<label for="message">Message:</label>
 										<textarea class="text-control" id="message" placeholder="Send your welcome message...">Hmm, are you friendly?</textarea>
 									</div>
-									<button type="submit" class="btn button w-100">Start New Chat</button>
+									<button id="add-chat-btn" type="submit" class="btn button w-100">Start New Chat</button>
 								</form>
 							</div>
 						</div>

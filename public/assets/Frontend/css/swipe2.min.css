@@ -100,7 +100,7 @@ a,a:hover{
     text-decoration:none
 }
 .button,.form-control,p{
-    font-weight:500
+    font-weight:500;
 }
 .switch,p{
     margin-bottom:0
@@ -108,7 +108,7 @@ a,a:hover{
 body{
     font-family:CircularStd,sans-serif;
     font-size:15px;
-    background:#fdfdfd;
+    background:#0e0f11;
     color:#bdbac2
 }
 a{
@@ -205,7 +205,7 @@ p{
 }
 .form-control{
     padding:25px 15px;
-    background:#f5f5f5;
+    background:#2a2d33;
     width:100%!important;
     border-radius:6px;
     border:none;
@@ -213,7 +213,7 @@ p{
     color:#bdbac2!important
 }
 .form-control:focus{
-    background:#f5f5f5;
+    background:#2a2d33;
     border:none!important;
     box-shadow:none
 }
@@ -235,7 +235,7 @@ p{
     padding:16px 25px;
     width:100%;
     background:#2196F3;
-    color:#fff;
+    color:#2a2d33;
     border-radius:6px;
     box-shadow:0 0 30px 5px rgba(0,0,0,.04)!important
 }
@@ -243,7 +243,7 @@ p{
     box-shadow:0 5px 10px 4px rgba(0,0,0,.04)
 }
 .button:hover{
-    color:#fff;
+    color:#2a2d33;
     opacity:.9
 }
 .bg-blue{
@@ -339,7 +339,7 @@ p{
     width:12px;
     left:3px;
     bottom:3px;
-    background-color:#fff;
+    background-color:#2a2d33;
     -webkit-transition:.4s;
     transition:.4s
 }
@@ -367,7 +367,7 @@ input:checked+.slider:before{
 .tooltip-inner{
     padding:5px 12px;
     background:#212529;
-    color:#fff;
+    color:#2a2d33;
     border-radius:6px
 }
 .bs-tooltip-auto[x-placement^=top] .arrow::before,.bs-tooltip-top .arrow::before{
@@ -394,7 +394,7 @@ input:checked+.slider:before{
     height:30px;
     min-width:30px;
     max-width:30px;
-    border:2px solid #fff;
+    border:2px solid #2a2d33;
     border-radius:100%
 }
 .avatar-md{
@@ -402,7 +402,7 @@ input:checked+.slider:before{
     height:45px;
     min-width:45px;
     max-width:45px;
-    border:2px solid #fff;
+    border:2px solid #2a2d33;
     border-radius:100%
 }
 .avatar-lg{
@@ -410,7 +410,7 @@ input:checked+.slider:before{
     height:50px;
     min-width:50px;
     max-width:50px;
-    border:3px solid #fff;
+    border:3px solid #2a2d33;
     border-radius:100%
 }
 .avatar-xl{
@@ -418,7 +418,7 @@ input:checked+.slider:before{
     height:60px;
     min-width:60px;
     max-width:60px;
-    border:3px solid #fff;
+    border:3px solid #2a2d33;
     border-radius:100%
 }
 .avatar-xxl{
@@ -447,7 +447,7 @@ input:checked+.slider:before{
     border-radius:6px
 }
 .dropdown-menu hr{
-    border-top:2px solid #fbfbfb;
+    border-top:2px solid #2a2d33;
     margin:10px
 }
 .dropdown-item{
@@ -459,7 +459,7 @@ input:checked+.slider:before{
     transition:all .3s
 }
 .dropdown-item:hover{
-    background:#f5f5f5
+    background:#2a2d33
 }
 .dropdown-item:focus{
     background:0 0;
@@ -472,7 +472,7 @@ input:checked+.slider:before{
 }
 .dropdown-item.active,.dropdown-item:active{
     background:#2196F3!important;
-    color:#fff!important
+    color:#2a2d33!important
 }
 .dropdown-menu .material-icons{
     margin-right:10px
@@ -481,7 +481,7 @@ input:checked+.slider:before{
     margin-right:15px
 }
 .navigation{
-    background:#fff
+    background:#2a2d33
 }
 .navigation .inside .menu .btn{
     padding:0;
@@ -517,7 +517,7 @@ input:checked+.slider:before{
 /* =======================side bar====================================== */
 /* =======================side bar====================================== */
 .sidebar{
-    background:#fdfdfd
+    background:#0e0f11
 }
 .sidebar .search{
     margin-bottom:30px
@@ -562,7 +562,7 @@ input:checked+.slider:before{
 .sidebar .sort .btn.active{
     color:#2196F3;
     padding:8px 20px;
-    background:#f5f5f5;
+    background:#2a2d33;
     border-radius:100px
 }
 .sidebar .create{
@@ -575,7 +575,7 @@ input:checked+.slider:before{
     top:30px;
     right:20px;
     float:right;
-    background:#fff;
+    background:#2a2d33;
     border-radius:100%;
     width:50px;
     height:50px;
@@ -592,21 +592,19 @@ input:checked+.slider:before{
     font-size:22px;
     color:#bdbac2
 }
-/*-----contacts-----*/
 .sidebar .contacts h1{
     font-size:24px;
     font-weight:800;
-    color:#212529;
-    border-bottom:2px solid #fbfbfb;
+    color:rgb(209, 203, 203);
+    border-bottom:2px solid #2a2d33;
     padding-bottom:18px;
     margin-bottom:0
 }
+/*-----contacts-----*/
 .sidebar .contacts a:hover{
     color:inherit
 }
-.sidebar .contacts .contact .status .online,.sidebar .contacts .contact.active .material-icons{
-    color:#2196F3
-}
+
 .sidebar .contacts .contact{
     display:-ms-flexbox;
     display:flex;
@@ -617,13 +615,13 @@ input:checked+.slider:before{
     border-radius: 5px;
 }
 .sidebar .contacts .contact:hover{
-    background: var(--cc-black-lighter)
+    background: #2a2d33
 }
 .sidebar .contacts .contact:last-of-type{
     border-bottom:2px solid transparent!important
 }
 .sidebar .contacts .contact.active{
-    background: var(--cc-black-lighter)
+    background: #2a2d33
 }
 .sidebar .contacts .contact .status{
     position:absolute;
@@ -631,7 +629,7 @@ input:checked+.slider:before{
     height:20px;
     right:0;
     left:4px;
-    border:5px solid #fff;
+    border:5px solid #2a2d33;
     margin-top:0;
     border-radius:100%
 }
@@ -651,7 +649,7 @@ input:checked+.slider:before{
     display:inline-flex;
     font-size:16px;
     font-weight:700;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:5px
 }
 .sidebar .contacts .contact .data p{
@@ -663,8 +661,8 @@ input:checked+.slider:before{
 .sidebar .discussions h1{
     font-size:24px;
     font-weight:800;
-    color:#212529;
-    border-bottom:2px solid #fbfbfb;
+    color:rgb(209, 203, 203);
+    border-bottom:2px solid #2a2d33;
     padding-bottom:18px;
     margin-bottom:0
 }
@@ -679,19 +677,19 @@ input:checked+.slider:before{
     display:-ms-flexbox;
     display:flex;
     -ms-flex-align:start;
+    border-radius: 5px;
     align-items:flex-start;
     padding:20px 15px;
     position: relative;
-    border-radius: 5px;
 }
 .sidebar .discussions .single:hover{
-    background: var(--cc-black-lighter)
+    background: #2a2d33
 }
 .sidebar .discussions .single:last-of-type{
     border-bottom:2px solid transparent!important
 }
 .sidebar .discussions .single.active{
-    background: var(--cc-black-lighter)
+    background: #2a2d33
 }
 .sidebar .discussions .single.active .material-icons{
     color:#212529
@@ -704,7 +702,7 @@ input:checked+.slider:before{
     width:30px;
     height:30px;
     background:#f0d24b;
-    border:2px solid #fff;
+    border:2px solid #2a2d33;
     border-radius:100%;
     box-shadow:5px 0 10px 0 rgba(0,0,0,.04);
     right:0;
@@ -712,7 +710,7 @@ input:checked+.slider:before{
     margin-top:-12px
 }
 .sidebar .discussions .single .new span{
-    color:#fff!important;
+    color:#2a2d33!important;
     font-size:12px;
     font-weight:500
 }
@@ -722,7 +720,7 @@ input:checked+.slider:before{
     height:20px;
     right:0;
     left:4px;
-    border:5px solid #fff;
+    border:5px solid #2a2d33;
     margin-top:12px;
     border-radius:100%
 }
@@ -745,7 +743,7 @@ input:checked+.slider:before{
     display:inline-flex;
     font-size:16px;
     font-weight:700;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:8px
 }
 .sidebar .discussions .single .data p{
@@ -762,8 +760,8 @@ input:checked+.slider:before{
 .sidebar .notifications h1{
     font-size:24px;
     font-weight:800;
-    color:#212529;
-    border-bottom:2px solid #fbfbfb;
+    color:rgb(209, 203, 203);
+    border-bottom:2px solid #2a2d33;
     padding-bottom:18px;
     margin-bottom:0
 }
@@ -776,17 +774,17 @@ input:checked+.slider:before{
     -ms-flex-align:start;
     align-items:flex-start;
     padding:19px 15px;
-    position: relative;
     border-radius: 5px;
+    position: relative;
 }
 .sidebar .notifications .notification:hover{
-    background: var(--cc-black-lighter)
+    background: #2a2d33
 }
 .sidebar .notifications .notification:last-of-type{
     border-bottom:2px solid transparent!important
 }
 .sidebar .notifications .notification.active{
-    background: var(--cc-black-lighter)
+    background: #2a2d33
 }
 .sidebar .notifications .notification.active .material-icons{
     color:#212529
@@ -797,7 +795,7 @@ input:checked+.slider:before{
     height:20px;
     right:0;
     left:4px;
-    border:5px solid #fff;
+    border:5px solid #2a2d33;
     margin-top:12px;
     border-radius:100%
 }
@@ -820,7 +818,7 @@ input:checked+.slider:before{
     font-size:16px;
     line-height:1.4;
     font-weight:500;
-    color:#212529;
+    color:rgb(219, 219, 219);
     margin-bottom:7px
 }
 .sidebar .notifications .notification .data span{
@@ -828,6 +826,7 @@ input:checked+.slider:before{
     font-size:15px;
     color:#bdbac2
 }
+/*-----settings-----*/
 .sidebar .settings .profile{
     text-align:center;
     margin-bottom:40px
@@ -838,7 +837,7 @@ input:checked+.slider:before{
 .sidebar .settings .profile h1{
     font-size:18px;
     font-weight:700;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:8px
 }
 .sidebar .settings .profile span{
@@ -851,7 +850,7 @@ input:checked+.slider:before{
     align-items:center;
     justify-content:center;
     padding:20px 0;
-    background:#fff;
+    background:#2a2d33;
     border-radius:6px;
     box-shadow:0 0 20px rgba(0,0,0,.04);
     -moz-transition:all .3s;
@@ -865,7 +864,7 @@ input:checked+.slider:before{
 .sidebar .settings .profile .stats .item{
     width:100%;
     text-align:center;
-    border-right:2px solid #fbfbfb
+    border-right:2px solid #2a2d33
 }
 .sidebar .settings .profile .stats .item:last-child{
     border-right:none
@@ -873,7 +872,7 @@ input:checked+.slider:before{
 .sidebar .settings .profile .stats .item h2{
     font-size:20px;
     font-weight:600;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:6px
 }
 .sidebar .settings .profile .stats .item h3{
@@ -885,8 +884,8 @@ input:checked+.slider:before{
 .sidebar .settings .categories h1{
     font-size:24px;
     font-weight:800;
-    color:#212529;
-    border-bottom:2px solid #fbfbfb;
+    color:rgb(209, 203, 203);
+    border-bottom:2px solid #2a2d33;
     padding-bottom:23px;
     margin-bottom:0
 }
@@ -894,7 +893,7 @@ input:checked+.slider:before{
     display:flex;
     align-items:center;
     padding:21px 0 20px;
-    border-bottom:2px solid #fbfbfb
+    border-bottom:2px solid #2a2d33
 }
 .sidebar .settings .categories .category .title:last-child{
     border-bottom:2px solid transparent
@@ -910,7 +909,7 @@ input:checked+.slider:before{
 .sidebar .settings .categories .category .title .data h5{
     font-size:16px;
     font-weight:700;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:5px
 }
 .sidebar .settings .categories .category .title .data p{
@@ -921,7 +920,7 @@ input:checked+.slider:before{
 }
 .sidebar .settings .categories .category .content{
     padding:30px 0;
-    border-bottom:2px solid #fbfbfb
+    border-bottom:2px solid #2a2d33
 }
 .sidebar .settings .categories .category .content .button{
     padding:14px 25px
@@ -940,7 +939,7 @@ input:checked+.slider:before{
 }
 .sidebar .settings .categories .category .content .upload{
     padding:27px 25px;
-    background:#fff;
+    background:#2a2d33;
     border-radius:6px;
     box-shadow:0 0 20px rgba(0,0,0,.04);
     margin-bottom:30px
@@ -986,7 +985,7 @@ input:checked+.slider:before{
 .sidebar .settings .categories .category .content .field label{
     font-size:14px;
     font-weight:700;
-    color:#212529;
+    color:rgb(209, 203, 203);
     text-transform:uppercase;
     margin-bottom:10px
 }
@@ -1028,12 +1027,12 @@ input:checked+.slider:before{
     line-height:1.7
 }
 .sidebar .settings .categories .category .content .history .custom-control-label::before{
-    background-color:#f5f5f5;
+    background-color:#2a2d33;
     box-shadow:none;
     border:none
 }
 .sidebar .settings .categories .category .content .history .custom-control-input:checked~.custom-control-label::before{
-    color:#fff;
+    color:#2a2d33;
     background-color:#007bff
 }
 .sidebar .settings .categories .category .content .app{
@@ -1042,7 +1041,7 @@ input:checked+.slider:before{
     -ms-flex-align:start;
     align-items:flex-start;
     padding:27px 25px;
-    background:#fff;
+    background:#2a2d33;
     border-radius:6px;
     box-shadow:0 0 20px rgba(0,0,0,.04);
     margin-bottom:20px
@@ -1061,7 +1060,7 @@ input:checked+.slider:before{
 .sidebar .settings .categories .category .content .app .permissions h5{
     font-size:16px;
     font-weight:600;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:8px
 }
 .sidebar .settings .categories .category .content .app .permissions p{
@@ -1078,7 +1077,7 @@ input:checked+.slider:before{
 }
 .sidebar .settings .categories .category .content .language .custom-select{
     padding:0 18px;
-    background:#f5f5f5;
+    background:#2a2d33;
     width:100%;
     border-radius:6px;
     height:52px;
@@ -1098,7 +1097,7 @@ input:checked+.slider:before{
     display:flex;
     align-items:flex-start;
     padding:21px 0 20px;
-    border-bottom:2px solid #fbfbfb
+    border-bottom:2px solid #2a2d33
 }
 .sidebar .settings .categories .category .content .set:only-child{
     padding:0!important
@@ -1116,7 +1115,7 @@ input:checked+.slider:before{
 .sidebar .settings .categories .category .content .set .details h5{
     font-size:16px;
     font-weight:600;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:8px
 }
 .sidebar .settings .categories .category .content .set .details p{
@@ -1135,7 +1134,7 @@ input:checked+.slider:before{
     display:flex;
     flex-direction:column;
     width:100%;
-    background:#fff;
+    background:#2a2d33;
     box-shadow:0 0 20px rgba(0,0,0,.04);
     border-radius:6px;
     pointer-events:auto
@@ -1144,7 +1143,7 @@ input:checked+.slider:before{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    background:#fdfdfd;
+    background:#0e0f11;
     padding:30px 40px;
     border-top-left-radius:6px;
     border-top-right-radius:6px
@@ -1152,7 +1151,7 @@ input:checked+.slider:before{
 .requests .title h1{
     font-size:22px;
     font-weight:800;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:0
 }
 .requests .title .material-icons{
@@ -1173,7 +1172,7 @@ input:checked+.slider:before{
 .requests .content .form-group label{
     font-size:14px;
     font-weight:700;
-    color:#212529;
+    color:var(--cc-white-primary);
     text-transform:uppercase;
     margin-bottom:10px
 }
@@ -1191,7 +1190,7 @@ input:checked+.slider:before{
 }
 .requests .content .text-control{
     padding:14px 17px;
-    background:#f5f5f5;
+    background:#2a2d33;
     width:100%!important;
     height:100%;
     min-height:100px;
@@ -1216,7 +1215,7 @@ input:checked+.slider:before{
     position:absolute;
     margin-top:-47px;
     left:49px;
-    background:#fdfdfd;
+    background:#0e0f11;
     padding:4px 8px;
     border-radius:6px
 }
@@ -1227,7 +1226,7 @@ input:checked+.slider:before{
 .requests .content .user h5{
     font-size:15px;
     font-weight:600;
-    color:#212529;
+    color:rgb(209, 203, 203);
     line-height:1.7;
     margin-bottom:0;
     margin-right:6px
@@ -1245,7 +1244,7 @@ input:checked+.slider:before{
     line-height:1.5
 }
 .main{
-    background:#fdfdfd;
+    background:#0e0f11;
     width:100%
 }
 .main .chat{
@@ -1264,17 +1263,17 @@ input:checked+.slider:before{
 }
 .main .chat .attach{
     background:#2196F3;
-    color:#fff;
+    color:#2a2d33;
     border-radius:100%
 }
 .main .chat .attach:hover{
-    color:#fff;
+    color:#2a2d33;
     opacity:.8
 }
 .main .chat .top{
     padding:26.5px 0;
-    background:#fff;
-    border-bottom:2px solid #fbfbfb
+    background:#2a2d33;
+    border-bottom:2px solid #2a2d33
 }
 .main .chat .top .inside{
     display:-ms-flexbox;
@@ -1291,7 +1290,7 @@ input:checked+.slider:before{
     height:20px;
     right:0;
     left:4px;
-    border:5px solid #fff;
+    border:5px solid #2a2d33;
     border-radius:100%;
     margin-top:0;
     margin-right:10px
@@ -1314,7 +1313,7 @@ input:checked+.slider:before{
 .main .chat .top .inside .data h5{
     font-size:16px;
     font-weight:700;
-    color:#212529;
+    color:rgb(209, 203, 203);
     margin-bottom:2px
 }
 .main .chat .top .inside .data span{
@@ -1369,7 +1368,7 @@ input:checked+.slider:before{
 }
 .main .chat .content .date hr{
     width:100%;
-    border-top:2px solid #fbfbfb;
+    border-top:2px solid #2a2d33;
     margin-top:0;
     margin-bottom:0
 }
@@ -1377,6 +1376,7 @@ input:checked+.slider:before{
     display:block;
     padding:0 20px
 }
+/*-------------message-----------*/
 .main .chat .content .message{
     display:-ms-flexbox;
     display:flex;
@@ -1408,8 +1408,7 @@ input:checked+.slider:before{
     display:inline-block;
     padding:15px;
     max-width:450px;
-    background:#f5f5f5;
-    color: var(--cc-primary-black);
+    background:#2a2d33;
     border-radius:6px
 }
 .main .chat .content .message .text.typing{
@@ -1442,7 +1441,7 @@ input:checked+.slider:before{
     }
 }
 .main .chat .content .message .text.me{
-    background:#2196F3;
+    background: var(--cc-blue-black);
     -moz-transition:all .3s;
     -webkit-transition:all .3s;
     transition:all .3s
@@ -1452,14 +1451,15 @@ input:checked+.slider:before{
     transition:all .3s linear
 }
 .main .chat .content .message .text.me .attachment .attach{
-    background:#fff;
+    background:#2a2d33;
     color:#2195F3
 }
+/*------------------------------color text-----------------------------------------------------*/
 .main .chat .content .message .text.me .attachment .file a:hover,.main .chat .content .message .text.me .attachment .file h5,.main .chat .content .message .text.me p{
-    color:#fff
+    color:rgb(209, 203, 203);
 }
 .main .chat .content .message .text.me .attachment .file span{
-    color:#fff;
+    color:rgb(209, 203, 203);
     text-align:left
 }
 .main .chat .content .message .text p{
@@ -1556,7 +1556,7 @@ input:checked+.slider:before{
     display:flex;
     align-items:center;
     padding:30px 0;
-    border-top:2px solid #fbfbfb
+    border-top:2px solid #2a2d33
 }
 .main .call,.main .chat .bottom input{
     display:none
@@ -1571,7 +1571,7 @@ input:checked+.slider:before{
     font-weight:400
 }
 .form-control[readonly],.main .chat .bottom .form-control:disabled{
-    background-color:#f5f5f5
+    background-color:#2a2d33
 }
 .main .chat .bottom .btn{
     padding:0;
@@ -1599,15 +1599,15 @@ input:checked+.slider:before{
     padding:16px;
     width:56px;
     height:56px;
-    color:#fff;
+    color:#2a2d33;
     margin-left:20px;
     box-shadow:0 5px 10px 4px rgba(0,0,0,.04)
 }
 .main .chat .bottom .btn.attach:hover{
-    color:#fff
+    color:#2a2d33
 }
 .main .chat .bottom .btn.attach.btn.disabled:hover{
-    color:#fff!important
+    color:#2a2d33!important
 }
 .main .call{
     background:linear-gradient(145deg,rgba(140,167,255,1) 0,rgba(139,84,249,1) 50%,rgba(131,33,243,1) 100%);
@@ -1634,9 +1634,22 @@ input:checked+.slider:before{
 .main .call .content .participant{
     margin-bottom:56px
 }
+#participant{
+    background:var(--cc-black-darker);
+}
+#topic{
+    background:var(--cc-black-darker);
+}
+#message{
+    background:var(--cc-black-darker);
+}
+#add-chat-btn{
+    background:var(--cc-blue-black);
+    color:var(--cc-white-primary)
+}
 .main .call .content .participant span{
     display:block;
-    color:#fff;
+    color:#2a2d33;
     font-weight:500;
     text-align:center
 }
@@ -1648,7 +1661,7 @@ input:checked+.slider:before{
 }
 .main .call .content .options .option{
     padding:0 20px;
-    color:#fff;
+    color:#2a2d33;
     line-height:0
 }
 .main .call .content .options .option:hover{
@@ -1658,7 +1671,7 @@ input:checked+.slider:before{
     padding:15px;
     margin:0 20px;
     background:#e05b5d;
-    color:#fff;
+    color:#2a2d33;
     line-height:0;
     border-radius:100%;
     animation:call-end 2s infinite
@@ -1666,7 +1679,7 @@ input:checked+.slider:before{
 .main .call .content .back{
     padding:18px;
     background:rgba(0,0,0,.05);
-    color:#fff;
+    color:#2a2d33;
     line-height:0;
     border-radius:100%;
     -moz-transition:all .3s;
@@ -1772,7 +1785,7 @@ input:checked+.slider:before{
     margin-right:0
 }
 .main .start .content .third-party .item .material-icons{
-    color:#fff;
+    color:#2a2d33;
     font-size:30px
 }
 .main .start .content .third-party .item img{
@@ -1836,19 +1849,19 @@ input:checked+.slider:before{
 .aside .preference h2{
     font-size:46px;
     font-weight:800;
-    color:#fff;
+    color:#2a2d33;
     margin-bottom:23px
 }
 .aside .preference p{
     font-size:16px;
-    color:#fff;
+    color:#2a2d33;
     font-weight:400;
     line-height:1.7;
     margin-bottom:30px
 }
 .aside .preference .button{
     max-width:300px;
-    background:#fff;
+    background:#2a2d33;
     color:#2196F3;
     box-shadow:none!important
 }
@@ -1885,7 +1898,7 @@ input:checked+.slider:before{
         min-width:100px;
         max-width:100px;
         overflow-y:auto;
-        border-right:2px solid #fbfbfb
+        border-right:2px solid #2a2d33
     }
     .navigation::-webkit-scrollbar{
         display:none
@@ -1924,10 +1937,10 @@ input:checked+.slider:before{
         -webkit-box-shadow:none
     }
     .sidebar::-webkit-scrollbar-thumb{
-        background:#f5f5f5
+        background:#2a2d33
     }
     .main .chat{
-        border-left:2px solid #fbfbfb
+        border-left:2px solid #2a2d33
     }
     .main .start .content form.signup{
         max-width:466px
@@ -2068,3 +2081,7 @@ input:checked+.slider:before{
         padding:0 12px
     }
 }
+
+
+
+/* https://usbrandcolors.com/whatsapp-colors/ */

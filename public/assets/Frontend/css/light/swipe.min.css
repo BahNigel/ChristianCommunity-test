@@ -1,97 +1,3 @@
-:root {
-
-  /** Color Variables **/
-
-  --cc-primary-blue: #2F6CE5;
-   --cc-primary-blue: #2195F3;
-  --cc-primary-black: #08090A;
-  --cc-white: #FFFFFF;
-  --cc-blue-darker: #2758CA;
-  --cc-blue-darkest: #1D44B0;
-  --cc-blue-black: #1d3044;
-  --cc-blue-light: #CDDCFA;
-  --cc-white-primary:rgb(209, 203, 203);
-  --cc-blue-lightest: #F0F5FF;
-  --cc-black-darker: #6D747A;
-  --cc-black-dark: #939CA3;
-  --cc-black-light: #CED4DA;
-  --cc-black-lighter: #EBEDF0;
-  --cc-black-lightest: #F8F9FA;
-  --cc-green-darkest: #1C8058;
-  --cc-green-darkest: #1C8058;
-  --cc-green-darker: #169462;
-  --cc-green-dark: #00B879;
-  --cc-green-light: #9FDFBE;
-  --cc-green-lightest: #E8F7EE;
-  --cc-red-darkest: #A90420;
-  --cc-red-darker: #CB1537;
-  --cc-red-dark: #DD1D43;
-  --cc-red-light: #FF6273;
-  --cc-red-lighter: #FFBEC0;
-  --cc-red-lightest: #FFECEE;
-
-
-  /** Font Variables **/
-
-  --cc-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif, 'Segoe UI', 'Arial', 'Roboto', 'Ubuntu', 'Oxygen', 'Fira Sans', 'Droid Sans';
-  --cc-font-size-32: 2rem;
-  --cc-font-size-28: 1.75rem;
-  --cc-font-size-24: 1.5rem;
-  --cc-font-size-22: 1.375rem;
-  --cc-font-size-18: 1.125rem;
-  --cc-font-size-16: 1rem;
-  --cc-font-size-14: 0.875rem;
-  --cc-font-size-13: 0.8125rem;
-  --cc-font-size-12: 0.75rem;
-  --cc-font-size-10: 0.625rem;
-  --cc-font-size-8: 0.5rem;
-
-
-  /** Margin and Padding  Variables **/
-
-  --cc-padding-2: 0.125rem;
-  --cc-padding-4: 0.25rem;
-  --cc-padding-5: 0.3125rem;
-  --cc-padding-6: 0.375rem;
-  --cc-padding-8: 0.5rem;
-  --cc-padding-10: 0.625rem;
-  --cc-padding-12: 0.75rem;
-  --cc-padding-14: 0.875rem;
-  --cc-padding-15: 0.9375rem;
-  --cc-padding-16: 1rem;
-  --cc-padding-18: 1.125rem;
-  --cc-padding-20: 1.25rem;
-  --cc-padding-22: 1.375rem;
-  --cc-padding-24: 1.5rem;
-  --cc-padding-25: 1.5625rem;
-  --cc-padding-30: 1.875rem;
-  --cc-padding-32: 2rem;
-  --cc-padding-35: 2.1875rem;
-  --cc-padding-40: 2.5rem;
-  --cc-padding-48: 3rem;
-
-  --cc-margin-2: 0.125rem;
-  --cc-margin-4: 0.25rem;
-  --cc-margin-5: 0.3125rem;
-  --cc-margin-6: 0.375rem;
-  --cc-margin-8: 0.5rem;
-  --cc-margin-10: 0.625rem;
-  --cc-margin-12: 0.75rem;
-  --cc-margin-14: 0.875rem;
-  --cc-margin-15: 0.9375rem;
-  --cc-margin-16: 1rem;
-  --cc-margin-18: 1.125rem;
-  --cc-margin-20: 1.25rem;
-  --cc-margin-22: 1.375rem;
-  --cc-margin-24: 1.5rem;
-  --cc-margin-25: 1.5625rem;
-  --cc-margin-30: 1.875rem;
-  --cc-margin-32: 2rem;
-  --cc-margin-35: 2.1875rem;
-  --cc-margin-40: 2.5rem;
-  --cc-margin-48: 3rem;
-}
-
 a,img{
     -moz-transition:all .3s;
     -webkit-transition:all .3s
@@ -513,9 +419,6 @@ input:checked+.slider:before{
 .navigation .inside .menu .mode:hover{
     color:#2196F3
 }
-
-/* =======================side bar====================================== */
-/* =======================side bar====================================== */
 .sidebar{
     background:#fdfdfd
 }
@@ -592,7 +495,6 @@ input:checked+.slider:before{
     font-size:22px;
     color:#bdbac2
 }
-/*-----contacts-----*/
 .sidebar .contacts h1{
     font-size:24px;
     font-weight:800;
@@ -612,18 +514,17 @@ input:checked+.slider:before{
     display:flex;
     -ms-flex-align:center;
     align-items:center;
-    padding:20px 15px;
-    position: relative;
-    border-radius: 5px;
+    padding:20px 0;
+    border-bottom:2px solid #fbfbfb
 }
 .sidebar .contacts .contact:hover{
-    background: var(--cc-black-lighter)
+    border-bottom:2px solid #2196F3
 }
 .sidebar .contacts .contact:last-of-type{
     border-bottom:2px solid transparent!important
 }
 .sidebar .contacts .contact.active{
-    background: var(--cc-black-lighter)
+    border-bottom:2px solid #2196F3
 }
 .sidebar .contacts .contact .status{
     position:absolute;
@@ -659,7 +560,6 @@ input:checked+.slider:before{
     line-height:1.4;
     font-weight:400
 }
-/*-----discussions-----*/
 .sidebar .discussions h1{
     font-size:24px;
     font-weight:800;
@@ -680,18 +580,17 @@ input:checked+.slider:before{
     display:flex;
     -ms-flex-align:start;
     align-items:flex-start;
-    padding:20px 15px;
-    position: relative;
-    border-radius: 5px;
+    padding:20px 0;
+    border-bottom:2px solid #fbfbfb
 }
 .sidebar .discussions .single:hover{
-    background: var(--cc-black-lighter)
+    border-bottom:2px solid #2196F3
 }
 .sidebar .discussions .single:last-of-type{
     border-bottom:2px solid transparent!important
 }
 .sidebar .discussions .single.active{
-    background: var(--cc-black-lighter)
+    border-bottom:2px solid #2196F3
 }
 .sidebar .discussions .single.active .material-icons{
     color:#212529
@@ -758,7 +657,6 @@ input:checked+.slider:before{
     font-size:14px;
     font-weight:400
 }
-/*-----notifications-----*/
 .sidebar .notifications h1{
     font-size:24px;
     font-weight:800;
@@ -775,18 +673,17 @@ input:checked+.slider:before{
     display:flex;
     -ms-flex-align:start;
     align-items:flex-start;
-    padding:19px 15px;
-    position: relative;
-    border-radius: 5px;
+    padding:19px 0;
+    border-bottom:2px solid #fbfbfb
 }
 .sidebar .notifications .notification:hover{
-    background: var(--cc-black-lighter)
+    border-bottom:2px solid #2196F3
 }
 .sidebar .notifications .notification:last-of-type{
     border-bottom:2px solid transparent!important
 }
 .sidebar .notifications .notification.active{
-    background: var(--cc-black-lighter)
+    border-bottom:2px solid #2196F3
 }
 .sidebar .notifications .notification.active .material-icons{
     color:#212529
@@ -1409,7 +1306,6 @@ input:checked+.slider:before{
     padding:15px;
     max-width:450px;
     background:#f5f5f5;
-    color: var(--cc-primary-black);
     border-radius:6px
 }
 .main .chat .content .message .text.typing{

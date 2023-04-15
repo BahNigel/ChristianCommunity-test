@@ -1499,6 +1499,69 @@ input:checked+.slider:before{
     font-size:14px;
     font-weight:600
 }
+/*======================================by me begining====================*/
+.message_box{
+    width: 100%;display:flex;justify-content:center;align-items:center;
+}
+.seperator{
+    background: silver;
+    margin: 20px 0px;
+    height: 10px;
+    width: 100%;
+}
+.seperator_bottom{
+    background: transparent;
+    margin: 20px 0px;
+    height: 10px;
+    width: 100%;
+}
+.message_1{
+    width:80%;
+    border: 1px solid silver;
+    padding: 2px;
+    border-radius: 5px;
+}
+.message_body{
+    background:rgb(233, 233, 233);width:100%;height:80px;
+}
+.message_footer .feedback{
+    height:80px;display:flex; align-items:center; justify-content:space-around;
+    border-bottom: 1px solid gray;
+}
+.feedback_2{
+    display:flex; align-items:center; justify-content:space-around;width:100%;
+
+    padding: 12px 0;
+}
+.feedback_1{
+    display:flex; align-items:center; justify-content:space-around;width:100%;
+
+}
+.feedback{
+    border-top:1px solid gray;
+}
+.feedback_2 .follow.select{
+   color:var(--cc-primary-blue);
+   border:2px solid var(--cc-primary-blue);
+}
+.feedback_2_button.select i{
+    font-size: 30px; color:var(--cc-primary-blue);
+}
+.feedback_2_button i{
+    font-size: 30px; color:gray;
+}
+.feedback_2 .follow{
+    border:2px solid gray; padding:4px 10px;font-size:20px;border-radius:5px;background:transparent; color:gray;
+}
+.comments{
+    padding: 30px 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.comments ul{
+    list-style: none;
+}
+/*======================================by me end====================*/
 .main .chat .content .no-messages{
     display:block;
     text-align:center;
